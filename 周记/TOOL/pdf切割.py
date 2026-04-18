@@ -12,12 +12,14 @@ from pypdf import PdfReader, PdfWriter
 
 
 # ======================== 显眼配置区（按需修改） ========================
-DEFAULT_SOURCE_PDF_PATH = Path(r"E:\QQ文件\Guyton and Hall Textbook of Medical Physiology (J.pdf")
-DEFAULT_OUTPUT_ROOT_PATH = Path(r"E:\QQ文件\该顿最新")
+DEFAULT_SOURCE_PDF_PATH = Path(r" ")
+DEFAULT_OUTPUT_ROOT_PATH = Path(r" ")
 DEFAULT_MODE = "outline"  # 可选：outline / pages
 DEFAULT_OUTLINE_LEVEL = 1
 DEFAULT_PAGE_RANGES = ""
 DEFAULT_CREATE_ZIP = True
+DEFAULT_RECURSION_LIMIT = 20000
+MAX_RECURSION_LIMIT = 100000
 # ==================================================================
 
 
@@ -32,6 +34,38 @@ def _safe_filename(name: str) -> str:
 	cleaned = re.sub(r"[\\/:*?\"<>|]", "_", name).strip()
 	cleaned = re.sub(r"\s+", " ", cleaned)
 	return cleaned[:80] or "untitled"
+
+
+def _ensure_recursion_limit(target_limit: int) -> None:
+	current_limit = sys.getrecursionlimit()
+	if current_limit >= target_limit:
+		return
+	sys.setrecursionlimit(target_limit)
+	print(f"已将递归深度上限从 {current_limit} 提升到 {target_limit}。")
+
+
+def _export_page_range_with_retry(reader: PdfReader, output_file: Path, start_page: int, end_page: int) -> None:
+	limits = [DEFAULT_RECURSION_LIMIT, MAX_RECURSION_LIMIT]
+	last_error: RecursionError | None = None
+
+	for limit in limits:
+		_ensure_recursion_limit(limit)
+		try:
+			writer = PdfWriter()
+			for page_idx in range(start_page, end_page + 1):
+				writer.add_page(reader.pages[page_idx])
+
+			with output_file.open("wb") as f:
+				writer.write(f)
+			return
+		except RecursionError as exc:
+			last_error = exc
+			if output_file.exists():
+				output_file.unlink()
+
+	raise RecursionError(
+		f"页码范围 {start_page + 1}-{end_page + 1} 导出失败：已将递归上限提升到 {MAX_RECURSION_LIMIT} 仍无法完成。"
+	) from last_error
 
 
 def _get_outline(reader: PdfReader):
@@ -102,10 +136,6 @@ def split_pdf_by_level(pdf_path: Path, output_dir: Path, target_level: int) -> l
 		if start_page < 0 or start_page >= total_pages or end_page < start_page:
 			continue
 
-		writer = PdfWriter()
-		for page_idx in range(start_page, end_page + 1):
-			writer.add_page(reader.pages[page_idx])
-
 		filename = f"{idx:03d}_{_safe_filename(section.title)}.pdf"
 		output_file = output_dir / filename
 		same_name_index = 1
@@ -113,8 +143,7 @@ def split_pdf_by_level(pdf_path: Path, output_dir: Path, target_level: int) -> l
 			output_file = output_dir / f"{idx:03d}_{_safe_filename(section.title)}_{same_name_index}.pdf"
 			same_name_index += 1
 
-		with output_file.open("wb") as f:
-			writer.write(f)
+		_export_page_range_with_retry(reader, output_file, start_page, end_page)
 
 		created_files.append(output_file)
 
@@ -168,10 +197,6 @@ def split_pdf_by_page_ranges(pdf_path: Path, output_dir: Path, page_ranges_text:
 	created_files: list[Path] = []
 
 	for idx, (start, end) in enumerate(page_ranges, start=1):
-		writer = PdfWriter()
-		for page_idx in range(start - 1, end):
-			writer.add_page(reader.pages[page_idx])
-
 		filename = f"{idx:03d}_pages_{start}-{end}.pdf"
 		output_file = output_dir / filename
 		same_name_index = 1
@@ -179,8 +204,7 @@ def split_pdf_by_page_ranges(pdf_path: Path, output_dir: Path, page_ranges_text:
 			output_file = output_dir / f"{idx:03d}_pages_{start}-{end}_{same_name_index}.pdf"
 			same_name_index += 1
 
-		with output_file.open("wb") as f:
-			writer.write(f)
+		_export_page_range_with_retry(reader, output_file, start - 1, end - 1)
 
 		created_files.append(output_file)
 
@@ -228,6 +252,41 @@ def _normalize_path_input(path_value: Path) -> Path:
 	return Path(text).expanduser()
 
 
+def _prompt_required_path(prompt_text: str, *, must_be_pdf_file: bool = False) -> Path:
+	while True:
+		raw = input(prompt_text).strip()
+		if not raw:
+			print("输入不能为空，请重试。")
+			continue
+
+		path = _normalize_path_input(Path(raw))
+		if must_be_pdf_file:
+			if not path.exists():
+				print(f"文件不存在：{path}")
+				continue
+			if path.suffix.lower() != ".pdf":
+				print(f"输入文件不是 PDF：{path}")
+				continue
+
+		return path
+
+
+def _collect_interactive_paths() -> tuple[Path, Path]:
+	print("\n=== PDF 切割交互模式 ===")
+	source_pdf_path = _prompt_required_path("请输入需要拆分的 PDF 文件路径：", must_be_pdf_file=True)
+	output_root = _prompt_required_path("请输入保存分割结果的文件夹路径：")
+	return source_pdf_path, output_root
+
+
+def _pause_before_exit(enabled: bool) -> None:
+	if not enabled:
+		return
+	try:
+		input("\n按回车键退出...")
+	except EOFError:
+		pass
+
+
 def _not_found_hint(source_pdf_path: Path) -> str:
 	path_text = str(source_pdf_path).lower()
 	if "appdata\\local\\temp\\gradio" in path_text:
@@ -267,10 +326,16 @@ def _resolve_outline_level(selected_level: int | None, level_count: dict[int, in
 
 def main() -> int:
 	args = _parse_args()
-	source_pdf_path: Path = _normalize_path_input(args.source)
-	output_root: Path = _normalize_path_input(args.output_root)
+	interactive_launch = len(sys.argv) == 1 and sys.stdin.isatty()
+	_ensure_recursion_limit(DEFAULT_RECURSION_LIMIT)
 
-	print(f"生效原文件路径：{source_pdf_path}")
+	if interactive_launch:
+		source_pdf_path, output_root = _collect_interactive_paths()
+	else:
+		source_pdf_path = _normalize_path_input(args.source)
+		output_root = _normalize_path_input(args.output_root)
+
+	print(f"\n生效原文件路径：{source_pdf_path}")
 	print(f"生效输出根目录：{output_root}")
 
 	if not source_pdf_path.exists():
@@ -326,6 +391,8 @@ def main() -> int:
 	except Exception as exc:
 		print(f"错误：{exc}")
 		return 1
+	finally:
+		_pause_before_exit(interactive_launch)
 
 
 if __name__ == "__main__":
