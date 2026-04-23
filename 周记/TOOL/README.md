@@ -1,4 +1,4 @@
-# PDF目录切割本地工具
+# PDF目录切割本地工具 PDF转anki卡片
 
 工具入口：周记/TOOL/pdf切割.py
 
