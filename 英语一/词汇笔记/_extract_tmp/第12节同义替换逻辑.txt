@@ -1,0 +1,248 @@
+B站柴荣老师
+学的是思维意识
+什么是同义替换？什么是逻辑关系？对做阅读有什么影响？
+第四章 同义替换
+一、原文同义替换（最难）
+1.主题词同义替换：
+2008Text3
+In the early1960s Wilt Chamberlain was one of theonly three players in the National
+①
+BasketballAssociation(NBA)listedatoversevenfeet.Ifhehadplayedlastseason,however,
+he would have been one of 42. The bodies playing major professional sports have changed
+dramatically over the years, and managers have been more than willing to adjust team
+uniformstofitthegrowingnumbersofbigger,longerframes.
+The trend in sports, though, may be obscuring an unrecognized reality: Americans
+②
+have generally stopped growing. Though typically about two inches taller now than 140
+years ago, today’s people—especially those born to families who have lived in the U.S. for
+manygenerations—apparentlyreachedtheirlimitintheearly1960s.Andtheyaren’t likely
+togetanytaller.“Inthegeneralpopulationtoday,atthisgenetic,environmentallevel,we’ve
+pretty much gone as far as we can go,” says anthropologist William Cameron Chumlea of
+WrightStateUniversity. InthecaseofNBAplayers,theirincreaseinheightappearstoresult
+fromtheincreasinglycommonpracticeofrecruitingplayersfromallovertheworld.
+Growth, which rarely continues beyond the age of 20, demands calories and
+③
+nutrients—notably, protein—to feed expanding tissues. At the start of the 20th century,
+under-nutrition and childhood infections got in the way. But as diet and health improved,
+children and adolescents have, on average, increased in height by about an inch and a half
+every 20 years, a pattern known as the secular trend in height. Yet according to the Centers
+for Disease Control and Prevention, average height—5'9" for men, 5'4" for women—hasn’t
+reallychangedsince1960.
+Genetically speaking, there are advantages to avoiding substantial height. During
+④
+childbirth, larger babies have more difficulty passing through the birth canal. Moreover,
+even though humans have been upright for millions of years, our feet and back continue to
+strugglewithbipedalpostureandcannoteasilywithstandrepeatedstrainimposedbyoversize
+limbs. “There are some real constraints that are set by the genetic architecture of the
+individualorganism,”saysanthropologistWilliamLeonardofNorthwesternUniversity.
+Genetic maximums can change, but don’t expect this to happen soon. Claire C.
+⑤
+Gordon, senior anthropologist at the Army Research Center in Natick, Mass., ensures that 90
+percent of the uniforms and workstations fit recruits without alteration. She says that, unlike
+those for basketball, the length of military uniforms has not changedfor some time. And if
+you need to predict human height in the near future to design a piece of equipment, Gordon
+saysthatbyandlarge,“youcouldusetoday’sdataandfeelfairlyconfident.”
+B站柴荣老师
+提炼主题词：身高
+主题词方向：不长了
+表示身高的词语全文写的一样吗？不一样
+你能识别吗？不能识别
+怎么办？培养同义替换意识 多总结提高敏感度
+2.主题词方向同义替换：
+2010Text2
+①Over the past decade, thousands of patents have been granted for what are called
+business methods. Amazon. com received one for its “one-click” online payment system.
+Merrill Lynch got legal protection for an asset allocation strategy. One inventor patented a
+techniqueforliftingabox.
+② Now the nation’s top patent court appears completely ready to scale back on
+business-method patents, which have been controversial ever since they were first
+authorized 10 years ago. In a move that has intellectual-property lawyers abuzz, the U.S.
+CourtofAppealsfortheFederalCircuitsaidit woulduseaparticularcasetoconductabroad
+review of business-method patents. In re Bilski, as the case is known, is “a very big deal”,
+says Dennis D. Crouch of the University of Missouri School of law. It “has the potential to
+eliminateanentireclassofpatents”.
+③Curbs on business-methodclaims would be a dramatic about-face, because it was the
+Federal Circuit itself thatintroduced suchpatents withits 1998 decision in theso-calledState
+Street Bank case, approving a patent on a way of pooling mutual-fund assets. That ruling
+produced an explosion in business-method patent filings, initially by emerging Internet
+companies trying to stake out exclusive rights to specific types of online transactions. Later,
+more established companies raced to add such patents to their files, if only as a defensive
+move against rivals that might beat them to the punch. In 2005, IBM noted in a court filing
+that it had been issued more than 300 business-method patents, despite the fact that it
+questioned the legal basis for granting them. Similarly, some Wall Street investment films
+armed themselves with patents for financial products, even as they took positions in court
+casesopposingthepractice.
+④The Bilski case involves a claimed patent on a method for hedging risk in the energy
+market.TheFederal circuitissuedanunusualorderstatingthatthecasewouldbeheardbyall
+12 of the court’s judges, rather than a typical panel of three, and that one issue it wants to
+evaluateiswhetheritshould“reconsider”itsStateStreetBankruling.
+⑤The Federal Circuit’s action comes in the wake of a series of recent decisions by the
+Supreme Court that has narrowed the scope of protections for patent holders. Last April, for
+example, the justices signaled that too many patents were being upheld for “inventions” that
+are obvious. The judges on the Federal Circuit are “reacting to the anti-patent trend at the
+Supreme Court”, says Harold C. Wegner, a patent attorney and professor at George
+WashingtonUniversityLawSchool.
+B站柴荣老师
+提炼主题词：business-methodpatents 怎么没替换？没法替换
+主题词方向：减少 scaleback/eliminate/curb/narrow
+26.[C]thepossiblerestrictionontheirgranting 限制=减少（—）
+27.[D]ItmaychangethelegalpracticesintheU.S.. 改变=包含减少
+29.[B]areoftenunnecessarilyissued 没有必要=应该减少（—）
+30.[A]Aloomingthreattobusiness-methodpatents 威胁=减少（—）
+二、原文与题干同义替换
+例1: 英一 2014Text4
+②In 2010, leading congressional Democrats and Republicans sent letters to the AAAS
+asking that it identify actions that could be taken by “federal, state and local
+governments,universities, foundations, educators, individual benefactors andothers” to
+“maintain national excellence in humanities and social scientific scholarship and
+education.” In response, the American Academy formed the Commission on the Humanities
+and Social Sciences. Among the commission’s 51 membersare top-tier-university presidents,
+scholars, lawyers, judges, and business executives, as well as prominent figures from
+diplomacy,filmmaking,musicandjournalism.
+37.InfluentialfiguresintheCongressrequiredthattheAAASreportonhowto____.
+[A]safeguardindividuals’rightstoeducation.
+[B]definethegovernment’sroleineducation.
+[C]retainpeople’sinterestinliberaleducation.
+[D]keepaleadingpositioninliberaleducation.
+例2: 英二 2017Text3
+①Today, widespread social pressure to immediately go to college in conjunction with
+increasingly high expectations in a fast-moving world often causes students to completely
+overlook the possibility of taking a gap year. After all, if everyone you know is going to
+B站柴荣老师
+college in the fall, itseems silly to stayback a year, doesn’t it?And after goingto school
+for12years,itdoesn’tfeelnaturaltospendayeardoingsomethingthatisn’tacademic.
+31.Oneofthereasonsforhigh-schoolgraduatesnottakingagapyearisthat_____.
+[A]theythinkitacademicallymisleading
+[B]theyhavealotoffuntoexpectincollege
+[C]itfeelsstrangetododifferentlyfromothers
+[D]itseemsworthlesstotakeoff-campuscourses
+afterall “毕竟” 例子：毕竟你刚开始练习，出错也很正常。
+三、原文与选项同义替换（最熟悉）
+例1: 英一 2012Text1
+But on the general effectiveness of the social cure, Rosenberg is less persuasive.Join
+④
+theClubis filled with too much irrelevant detail and not enough exploration of the social
+and biological factors that make peer pressure so powerful. The most glaring flaw of the
+social cure asit’s presentedhere is thatit doesn’twork verywell forvery long. RageAgainst
+the Haze failed once state funding was cut. Evidence that the loveLife program produces
+lastingchangesislimitedandmixed.
+23.Intheauthor’sview,Rosenberg’sbookfailsto________.
+[A]adequatelyprobesocialandbiologicalfactors
+[B]effectivelyevadetheflawsofthesocialcure
+[C]illustratethefunctionsofstatefunding
+[D]producealong-lastingsocialeffect
+例2: 英二 2012Text2
+Trade publications counseled department stores that, in order to increase sales, they
+④
+shouldcreatea“thirdsteppingstone”betweeninfantwearandolderkids’clothes.Itwasonly
+after “toddler” became a common shoppers’ term that it evolved into a broadly accepted
+developmentalstage.Splittingkids,oradults,intoever-tiniercategorieshasprovedasure-fire
+waytoboostprofits.
+29.WemaylearnfromParagraph4thatdepartmentstoreswereadvisedto_______.
+B站柴荣老师
+[A]focusoninfantwearandolderkids’clothes
+[B]attachequalimportancetodifferentgenders
+[C]classifyconsumersintosmallergroups
+[D]createsomecommonshoppers’terms
+四、常见同义替换方式总结：
+ 原文同义替换
+ 原文与题干同义替换
+ 原文与选项同义替换
+ 1. e.g.agree=agreement
+不同词性的替换
+ 2. / e.g.job=profession
+同义词近义词替换：
+ 3. e.g.big=notsmall
+反义替换
+ 4. e.g.AinfluenceB→BwasinfluencedbyA
+主被动替换
+ 5. e.g.flower→rose
+上义词（宽泛的词）下义词（具体的词）替换
+ 6. e.g.withoutAworldbeshabby→Aaddsbeautytoworld
+正话反说
+B站柴荣老师
+第五章 逻辑关系
+常见逻辑关系梳理：
+ 顺接关系
+1.并列词
+and,and also,or,either...or..., neither...nor..., notonly...but also...,
+likewise, similarly, equally, in the same way, that is (to say), as well as, much the
+sameas.
+2.递进词
+also, then, besides, additionally, in addition, furthermore, moreover, what's more,
+indeed,even, in effect,in fact
+ 相反关系
+1.转折词
+but, yet, rather, still, however, contrarily, on the contrary, by contrast, unfortunately,
+infact, in reality, actually,ontheother hand
+2.让步词
+although, though,even though, even if,nevertheless,despite, in spiteof, regardlessof,
+anyway, anyhow,even
+3.对比词
+while,whereas, ratherthan.., insteadof,not...but...
+ 因果关系
+1.因果词
+because, for, since, as, thus, hence, therefore, so, so..that..., such...that...,
+consequently, accordingly, due to, thanks to, on account of,account for, considering,
+seeingthat, in that, nowthat, asа result,for thisreason
+2.目的词
+inorder that..,for, in order to, sothat, lest, forfearthat, in case
+3.条件词
+B站柴荣老师
+if, only if, unless, otherwise, as soon as, as long as, in case, suppose that, supposing
+that, providedthat, providing that, with (thehelp of),when,whenever
+ 举例关系
+such as, for example, for instance, of(these, those, them), among(these, those, them),
+to illustrate, as anillustration, to take an example, more specifically speaking, namely,
+that is(tosay)
+ 时间关系
+1.first, second, last of all; in the first place, in the second place, finally; to begin with,
+to continue; first...then, on the one hand...on the other hand; for one thing... for
+another;one...another; some...others.. still others...
+2.when, whenever, before, after, since, as, until, till, simultaneously, meanwhile, in
+themeantime,atthesame time
+关于逻辑关系中英文差异
+汉语：不重视逻辑
+英语：重视逻辑
+逻辑关系在阅读中的应用：
+ 句内逻辑关系：
+While polls show Britons rate “the countryside” alongside the royal family,
+Shakespeare and the National Health Service (NHS) as what makes them proudest of
+theircountry,this haslimited politicalsupport.
+提炼：whileA，B
+意思：尽管民意调查表明英国人把乡村看作是最自豪的，但是...
+预判这篇文章主题：主题词+方向 乡村+不好
+ 句间逻辑关系：
+President Trump has underlined fossil fuels—especially coal—as the path to
+economic growth. In a recent speech in Iowa, he dismissed wind power as an
+unreliable energy source. But that message did not play well with many in Iowa,
+where wind turbines dot the fields and provide 36 percent of the state’s electricity
+generation—and where tech giants like Microsoft are being attracted by the
+availability ofclean energyto power theirdatacenters.
+意思：他否定风能.. 但是...
+问T总统对风能什么态度？—
+问作者对风能什么态度？ +
+转折关系的作用是什么？否定前面观点，引出自己的观点
+B站柴荣老师
+ 段间逻辑关系：
+Over the past decade, thousands of patents have been granted for what are
+①
+called business methods. Amazon. com received one for its “one-click” online
+payment system. Merrill Lynch got legal protection for an asset allocation strategy.
+Oneinventor patenteda technique forliftinga box.
+Now the nation’s top patent court appears completely ready to scale back on
+②
+business-method patents, which have been controversial ever since they were first
+authorized 10 years ago. In a move that has intellectual-property lawyers abuzz, the
+U.S. Court of Appeals for the Federal Circuit said it would use a particular case to
+conduct a broad review of business-method patents. In re Bilski, as the case is known,
+is “a very big deal”, says Dennis D. Crouch of the University of Missouri School of
+law.It“hasthepotential to eliminate anentire classof patents”.
+问P1和P2 什么关系？今昔对比
+问这篇主旨在哪？P2
+问出题人会在哪里出题？P2
+结论：出题人往往在逻辑重要的地方出题
+作业要求：
+开始刷阅读题之后：
+1.学会总结同义替换
+2.学会总结逻辑关系

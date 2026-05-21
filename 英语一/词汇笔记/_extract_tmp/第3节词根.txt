@@ -1,0 +1,258 @@
+B站柴荣老师
+规律：元音互换 辅音通假
+Part 3 词根变化规律总结（只做了解 无须记忆）
+规律 1：中间的元音字母可相互替换
+fac→fec/fic
+规律 2：尾部字母b→pt
+scrib→script
+规律 3：尾部增加字母t
+fac→fact/cap→capt/dic→dict/doc→doct/duc→duct/sec→sect/spec→spect
+规律 4：尾部字母g→ct
+ag→act/aug→auct/fig→fict/leg→lect/pig→pict/tag→tact
+规律 5：尾部字母v→(u)t
+mov→mot/solv→solut/volv→volut
+规律 6：尾部字母m→mpt
+em→empt/sum→sumpt
+规律 7：以[s]收尾的尾部字母或字母组合如 x、sc→（c）t
+flux→fluct/nasc→nat/cresc→cret
+规律 8：尾部字母t 或d→s 或x
+flect→flex/mit→miss/sent→sens/ced→cess/cid→cis/clud→clus/vid→vis
+规律 9：词根首字母同化词缀尾字母
+ad+fect→affect/com+rect→correct/dis+fer→differ/ex+fect→effect
+B站柴荣老师
++ +
+讲解逻辑：先记意思 拓展 应用
+标记习惯：蓝色表示逻辑
+“ ...”
+词根：意思一般比较简单 看 听 说 写 走 跑 做
+为什么有的单词用词根词缀很好记，有的用词根词缀也不好记？
+具体词：必然好记
+抽象词：难记
+例：-cept-/ceive- 抓
+capture v.抓住
+perceive/perception v.理解 （抓住idea）
+关于介词使用很头大，总是不知道该用哪个或者不知道怎么翻译？
+结合单词+介词本来的意思来理解词组搭配
+impose AonB on “在...上”” focus on/concentrateon/depend on/relyon...
+live with with “与...一起” “忍受”
+fight for for “为了” “为...而战”
+fight against against “反对” “反抗/对抗...”
+B站柴荣老师
+Part 4 常见词根
+摆“pose”姿势
+常见词根 1: -pos- =to place 放置
+1.词根拓展
+ pose v.摆放姿势 n.姿势
+ impose im+pos+e （心）里边+放=往里放 v.强加于
+ expose ex+pos+e 外边+放=往外放 v.（使）暴露
+ compose com+pos+e 一起+放=放一起 v.组成
+ propose pro+pos+e 向前+放=往前放（idea）v.提议（希望未来做）
+ suppose sup+pos+e 下+放=往下放（idea） v.猜想 假定
+ oppose op+pos+e 相反+放 v.反对
+ dispose di(s)+pos+e 分开/离开+放=分开放 v.安排 处置 安置
+ postpone post+pon+e 后+放=往后放 v.推迟
+考点拓展：
+ pose v.摆放姿势 n.姿势
+poseaquestion 放一个问题？ v.提出
+poseathreat 放一个威胁？ v.造成
+position n.姿势 位置
+ impose im+pos+e （心）里边+放=往里放 v.强加于 强征（税）
+imposition n.（强行）实施
+impose AonB 把A强加于B
+ expose ex+pos+e 外边+放=往外放 v.（使）暴露；使面临
+exposure n.暴露
+beexposed to 被暴露于.../面临=有=be facedwith=be confrontedwith
+facesb. 面临某人？使某人面临
+ compose com+pos+e 一起+放=放一起 v.组成
+composition n.组成 作文 作曲 作品 创作
+B站柴荣老师
+component n.组成部分
+composer n.作曲家 创作者
+ propose pro+pos+e 向前+放=往前放（idea） v.提议（希望未来做）
+proposal n.提议
+proposedoing sth.=suggest doing sth. （给建议）观点
+ suppose sup+pos+e 下+放=往下放（idea） v.猜想 假定
+supposition n.猜想 假定
+besupposedto dosth.=should dosth. 被假定做某事=应该做某事
+ oppose op+pos+e 相反+放 v.反对（—）
+opposite adj.对立的 相反的
+opposition n.对立
+opponent n.对手
+ dispose di(s)+pos+e 分开/离开+放=分开放 v.安排 处置 安置 处理
+disposal n.处理
+disposable adj.可以处理的=可以随意处理的=可以丢弃的 一次性的
+ postpone post+pon+e 后+放=往后放 v.推迟
+=delay 延迟 putoff 推迟
+实践出真知！！！
+2.真题例句
+ “I think //that the kinds of things //that women are exposed to tend to be //in
+more of a chronic or repeated nature. Men go to war and are exposed to combat
+stress. Men are exposed to more acts of random physical violence. 2008
+（英一
+T1
+）
+chronic
+长期的
+nature = = = = = =
+大自然 与生俱来 天生 本质 本性 特质 特征
+tendto ...= ...
+倾向于 往往
+beexposed to
+面临
+combat
+斗争
+random
+随意的
+B站柴荣老师
+womenVS men ( )
+阅读思维： 对比
+kinds ofthings=stress combat=physical violence
+同义替换思维：
+ Beethoven’s habit //of increasing the volume //with an extreme intensity //and
+then abruptly following it //with a sudden soft passage was only rarely used by
+composers //before him. 2014
+（英一 翻译）
+Beethoven “ ” “ ”
+考点：人名翻译 名人： 碧瑟芬 贝多芬 约定俗成 积累
+Wordsworth 2006T4 2023
+沃滋沃斯 华兹华斯 英语二翻译
+AI “ ”
+举例：给 同时输入 沃滋沃斯 华兹华斯
+rarely=hardly=barely=scarcely =
+考点： （几乎不 不）
+考点：词义选择（结合语境）
+volume
+体积 数量 音量
+passage
+文章 乐章 乐段
+follow /
+跟随 跟上 紧接着
+soft
+柔软的 舒缓的 轻缓的
+composer
+创作者 作曲家
+ In December 2010 America’s Federal Trade Commission (FTC) proposed
+adding a “do not track” (DNT) option to internet browsers, so that users could tell
+advertisers//thatthey didnot wantto be followed. 2013T2
+（英一 ）
+FTC Congress
+背景知识： 联邦贸易委员会 直属于国会
+/ /
+预测这篇文章话题：经济 商业 贸易
+propose /
+看到 这句话本质在写什么？一个提议 一个观点
+addAto B A B
+把 添加到
+internetbrowser
+互联网浏览器
+track=follow
+跟踪 追踪
+user advertiser
+用户 广告商
+B站柴荣老师
+infinite 无限的 infiniti 汽车品牌 英菲尼迪
+Volvo 汽车品牌 沃尔沃
+1.形 2.声 3.义
+常见词根 2: -volv-=to turn/to roll 转/卷
+1.词根拓展
+ volume volum+e n.卷 册（书）音量 体积 （数量）adj.大量的
+ involve in+volv+e 里+卷 v.卷入
+involution 退化 内卷化（恶性竞争）
+ evolve e+volv+e 外+卷 v.进化
+evolution 进化
+ revolve re+volv+e 回+卷/转 v.旋转 循环（轮回）
+revolution 革命（新的一次循环）
+ revolt re+volt 回+转 v.反叛 反抗
+考点拓展：
+ volume n.卷 册（书）音量 体积 （数量）adj.大量的
+ involve in+volv+e 里+卷 v.卷入=包含=涉及到
+involution 退化 内卷化（恶性竞争）
+involvement n.卷入
+beinvolvedin 卷入=包含=include/contain/be composed of
+ evolve e+volv+e 外+卷 v.进化=发展
+evolution 进化
+evolvefrom=come from=derivefrom=stem from=originatefrom 源于
+evolveto 发展为...=演变为...
+ revolve re+volv+e 回+卷/转 v.旋转 循环（轮回）
+revolution n.旋转 循环 革命
+revolutionize v.革命 革新=变化=change...
+ revolt re+volt 回+转 v.反叛 反抗（—）
+B站柴荣老师
+2.真题例句
+ Curriculums—from grammar school to college—should evolve to focus less on
+memorizing facts and more on creativity and complex communication.
+（英一
+2018T1
+）
+Sth.focus less onAandmore onB
+结构提炼： 对比逻辑
+memorizingfacts =
+记忆事实 死记硬背
+creativity
+创新
+ Coinciding with the groundbreaking theory //of biological evolution //proposed
+by British naturalist Charles Darwin //in the 1860s, //British social
+philosopher Herbert Spencer put forward his own theory //of biological and
+culturalevolution.
+（英一 新题型）
+CharlesDarwin ·
+名人： 查尔斯 达尔文
+coincidence = ...
+巧合 与 同时生
+Acoincide withB A B...
+与 一致
+putforward
+推进
+HS CD
+问 的理论和 的理论什么关系？一致
+:
+学会看两者关系
+1. Acoincide B
+一致
+2. Aconflictwith B Aversus B
+相反
+3. Alead toB Aoriginate fromB
+因果
+ The concept //of man versus machine is (at least) as old as the industrial
+revolution, but this phenomenon tends to be most acutely felt //during economic
+downturnsandfragile recoveries. 2014T3
+（英二 ）
+不要相信你的翻译，相信逻辑！！！
+VS
+第一句：人 机器
+第二句：这个现象更加被感受到？对抗的更强还是更弱？更强
+but
+思考： 什么逻辑关系？递进关系
+thisphenomenon manVS machine
+思考： 指的是？ 人机对抗这种现象
+acutely acutely (=very)
+思考： 怎么翻译？ 尖锐地 强烈地
+B站柴荣老师
+— +
+思考：经济下滑和恢复？经济下滑（ ）恢复（ ）
+economicdownturns
+经济下滑
+fragile recoveries /
+难以恢复 复苏乏力
+concept 概念 理念=观点
+VS=versus 对抗 manVS machine 猜测：这篇文章话题？
+as...as 和...一样
+atleast 至少
+industrialrevolution 工业革命（标志性事件）
+acute adj.严重的；强烈的；尖锐的
+fragile adj.脆弱的
+/ /
+句型结构：理解句型功能 作用 多总结 积累句型（针对写作）
+Theconcept of Aisas old asB.
+A B
+直译：关于 的理念和 一样古老。
+B A
+实际：在 这个时候就有 这个理念了。
+(low)
+我们写的句子太普通 了，但是阅读的句子都写的很高级。
+“ B A ”
+在 这个时候就有 这个理念了
+“Duringindustrial revolution there was theconcept of....”
+我们： ，
+Theconcept of Aisas old asB.
+作者：
